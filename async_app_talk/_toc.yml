@@ -1,0 +1,34 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: 10-motivation/00-introduction
+  sections:
+  - file: 10-motivation/10-tph_sensors
+  - file: 10-motivation/20-power_meter
+  - file: 10-motivation/30-solar_power
+  - file: 10-motivation/40-timelapse_photography
+  - file: 10-motivation/50-telescope
+  - file: 10-motivation/60-toys
+- file: 20-whats_asyncio/00-introduction
+  sections:
+  - file: 20-whats_asyncio/10-naive_execution
+  - file: 20-whats_asyncio/20-thread_based_execution
+  - file: 20-whats_asyncio/30-asyncio_based_execution
+- file: 30-prior_art_and_alternatives/00-introduction
+  #sections:
+    #- file: 30-prior_art_and_alternatives/10-twisted
+    #- file: 30-prior_art_and_alternatives/20-tornado
+    #- file: 30-prior_art_and_alternatives/30-trio
+    #- file: 30-prior_art_and_alternatives/40-curio
+    #- file: 30-prior_art_and_alternatives/50-anyio
+    #- file: 30-prior_art_and_alternatives/60-gevent
+    #- file: 30-prior_art_and_alternatives/70-uvloop
+    #- file: 30-prior_art_and_alternatives/80-rocketry
+- file: 40-this_implementation/00-introduction
+  sections:
+  - file: 40-this_implementation/10-how_this_implementation_works
+  - file: 40-this_implementation/20-examples.md
+- file: 50-thank_you/10-thank_you
