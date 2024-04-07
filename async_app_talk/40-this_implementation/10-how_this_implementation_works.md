@@ -1,3 +1,0 @@
-# How this implementation works
-
-

@@ -30,6 +30,9 @@ chapters:
     #- file: 30-prior_art_and_alternatives/80-rocketry
 - file: 40-this_implementation/00-introduction
   sections:
-  - file: 40-this_implementation/10-how_this_implementation_works
-  - file: 40-this_implementation/20-examples.md
+  - file: 40-this_implementation/10-periodically_execute_things
+  - file: 40-this_implementation/20-let_all_tasks_be_the_same
+  - file: 40-this_implementation/30-one_to_execute_them_all
+  - file: 40-this_implementation/40-add_command_line_options
+  - file: 40-this_implementation/50-config_files_and_environment_variables
 - file: 50-thank_you/10-thank_you
