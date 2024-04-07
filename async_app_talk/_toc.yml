@@ -17,6 +17,7 @@ chapters:
   - file: 20-whats_asyncio/10-ingredients
   - file: 20-whats_asyncio/20-thread_based_execution
   - file: 20-whats_asyncio/30-asyncio_based_execution
+  - file: 20-whats_asyncio/40-the_asyncio_sleep_breaker
 - file: 30-prior_art_and_alternatives/00-introduction
   #sections:
     #- file: 30-prior_art_and_alternatives/10-twisted
