@@ -1,28 +1,14 @@
 # Motivation
 
-The need for a simple 'template like' app to create various simple applications, a framework maybe?
+Personal interest in IOT like applications, mainly monitoring
 
-##  Temperature and Humidity monitoring at several locations in my house
+- temperature and humidity at several locations in my house
+- pool temperature
+- power consumption
+- yield of balcony power plant
 
-- track solar power yield from the balcony power station
-- timelapse photography
+But also recreate existing solutions to learn about strategies and efforts
 
-
-All those apps follow the same pattern:
-
-- read input, such as sensor data and photos as they come or on demand
-- process them
-- send them somewhere else
-- run forever
-- as no software is perfect: 
-    - monitor resource usage
-    - watch for errors
-
-This combination tends to get complex already:
-
-- how to guarantee timely calls
-- how to prevent blocking behaviour
-- how to do things 'at the same time'
-
-
-Didn't like 'threading' to much (because of many reasons, but that's a different story), so went for 'asyncio'.
+- telescope control
+- timelapse videos
+- remote controlled toy cars

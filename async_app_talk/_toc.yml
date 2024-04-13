@@ -12,22 +12,22 @@ chapters:
   - file: 10-motivation/40-timelapse_photography
   - file: 10-motivation/50-telescope
   - file: 10-motivation/60-toys
+  - file: 10-motivation/90-the_problem
+  - file: 10-motivation/95-the_plan
 - file: 20-whats_asyncio/00-introduction
   sections:
-  - file: 20-whats_asyncio/10-ingredients
-  - file: 20-whats_asyncio/20-thread_based_execution
-  - file: 20-whats_asyncio/30-asyncio_based_execution
-  - file: 20-whats_asyncio/40-the_asyncio_sleep_breaker
+  - file: 20-whats_asyncio/01-ingredients
+  - file: 20-whats_asyncio/02-threads
+  - file: 20-whats_asyncio/03-thread_based_execution
+  - file: 20-whats_asyncio/04-multiprocessing
+  - file: 20-whats_asyncio/05-multiprocessing_based_execution
+  - file: 20-whats_asyncio/06-asyncio
+  - file: 20-whats_asyncio/07-asyncio_based_execution
+  - file: 20-whats_asyncio/08-how_does_it_work
+  - file: 20-whats_asyncio/40-the_selfish_example
+  - file: 20-whats_asyncio/41-the_cooperative_example
+  - file: 20-whats_asyncio/90-i_want_more
 - file: 30-prior_art_and_alternatives/00-introduction
-  #sections:
-    #- file: 30-prior_art_and_alternatives/10-twisted
-    #- file: 30-prior_art_and_alternatives/20-tornado
-    #- file: 30-prior_art_and_alternatives/30-trio
-    #- file: 30-prior_art_and_alternatives/40-curio
-    #- file: 30-prior_art_and_alternatives/50-anyio
-    #- file: 30-prior_art_and_alternatives/60-gevent
-    #- file: 30-prior_art_and_alternatives/70-uvloop
-    #- file: 30-prior_art_and_alternatives/80-rocketry
 - file: 40-this_implementation/00-introduction
   sections:
   - file: 40-this_implementation/10-periodically_execute_things
