@@ -11,7 +11,7 @@ So let me take you with me on a journey to create simple, yet powerful building 
 
 ## Usage
 
-[AsyncApp Talk on PyCon.de 2024](https://jneines.github.io/async_app_talk_pycon_de_2024/30-prior_art_and_alternatives/00-introduction.html)
+[AsyncApp Talk on PyCon.de 2024](https://jneines.github.io/async_app_talk_pycon_de_2024/intro.html)
 
 ## Credits
 
