@@ -14,4 +14,3 @@
 >
 > -- Malcom Douglas McIlroy - Inventor of the Unix pipes
 
-Do not end with a cite?

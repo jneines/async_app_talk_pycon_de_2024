@@ -7,7 +7,7 @@ Personal interest in IOT like applications, mainly monitoring
 - power consumption
 - yield of balcony power plant
 
-But also recreate existing solutions to learn about strategies and efforts
+But also recreate existing solutions to learn about strategies and necessary efforts to build them
 
 - telescope control
 - timelapse videos

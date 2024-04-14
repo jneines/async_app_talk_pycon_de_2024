@@ -3,6 +3,8 @@
 Several sensors located in the house send readings periodically to web-service. Data is displayed like so:
 
 :::{image} images/tph_reading.png
+:height: 480px
+:align: center
 :::
 
 - Sensors are esp32 and MicroPython based

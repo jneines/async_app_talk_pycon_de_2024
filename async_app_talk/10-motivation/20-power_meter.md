@@ -3,10 +3,21 @@
 
 Power meter offers a serial interface via infrared diode, which is read by a Raspberry Pi.
 
+:::::{grid}
+::::{grid-item}
 :::{image} images/power_meter.jpg
-:height: 640px
+:height: 480px
 :align: center
 :::
+::::
+
+::::{grid-item}
+:::{image} images/power_meter_reading.png
+:width: 240px
+:align: center
+:::
+::::
+:::::
 
 
 - Read data stream from the power meter using serial interface
@@ -14,7 +25,3 @@ Power meter offers a serial interface via infrared diode, which is read by a Ras
 - publish data to a central fastapi service for display and storage
 - display again using pyscript engine in web browser.
 
-:::{image} images/power_meter_reading.png
-:width: 240px
-:align: center
-:::
