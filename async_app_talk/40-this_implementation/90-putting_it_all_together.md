@@ -1,7 +1,7 @@
 # Putting it all together
 
 
-The `AsyncApp` implementation offers a very simple interface.
+The **AsyncApp** implementation offers a very simple interface.
 
 - It can execute tasks only
 - Tasks are defined using `task_descriptions`
