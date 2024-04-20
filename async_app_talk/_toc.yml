@@ -4,6 +4,7 @@
 format: jb-book
 root: intro
 chapters:
+- file: 05-introduction
 - file: 10-motivation/00-introduction
   sections:
   - file: 10-motivation/10-tph_sensors

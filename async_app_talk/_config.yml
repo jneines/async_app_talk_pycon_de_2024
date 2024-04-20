@@ -8,7 +8,7 @@
 title                       : AsyncApp. My contribution to hype Pythons asyncio a bit more  # The title of the book. Will be placed in the left navbar.
 author                      : Jens Nie  # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
-logo                        : images/async_app_logo.svg  # A path to the book logo
+logo                        : images/async_app_at_pycon_de.svg  # A path to the book logo
 
 parse:
   myst_enable_extensions:
@@ -17,7 +17,7 @@ parse:
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: cache
+  execute_notebooks: off
 
 # Define the name of the latex output file for PDF builds
 #latex:
@@ -39,3 +39,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+sphinx:
+  config:
+    html_theme_options:
+      navigation_with_keys: true

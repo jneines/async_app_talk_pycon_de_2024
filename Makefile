@@ -1,10 +1,13 @@
+target:=async_app_talk
+all: book
+
+new: clean book
+
 book:
-	jupyter-book build async_app_talk
+	jupyter-book build $(target)
 
 open:
-	open async_app_talk/_build/html/index.html
+	open $(target)/_build/html/index.html
 
 clean:
-	rm -rf async_app_talk/_build
-
-all: clean book
+	rm -rf $(target)/_build

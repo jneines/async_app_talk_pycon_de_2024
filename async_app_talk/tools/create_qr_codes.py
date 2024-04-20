@@ -12,4 +12,8 @@ img = qrcode.make("https://jneines.github.io/async_app_talk_pycon_de_2024/intro.
 img_path = images_dir / "async_app_talk_qr_code.png"
 img.save(img_path.as_posix())
 
+img = qrcode.make("https://rosennxt.wd3.myworkdayjobs.com/Rosenxt/job/Lingen/Full-Stack-Python-Developer--all-genders-welcome-_JR100211")
+img_path = images_dir / "job_ad.png"
+img.save(img_path.as_posix())
+
 

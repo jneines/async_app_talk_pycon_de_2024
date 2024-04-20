@@ -5,7 +5,7 @@ Power inverter offers data via proprietary wireless interface, which can be read
 :::{image} images/solar_power_reading.png
 :::
 
-- Read data via matching receiver
+- Read data via matching receiver.
 - decode and wrap into a usable format
-- send to fastapi based webservice for relaying and storage
-- use pyscript engine to diplay data in webbrowser
+- send to **fastapi** based webservice for relaying and storage
+- use **pyscript** engine to diplay data in webbrowser
